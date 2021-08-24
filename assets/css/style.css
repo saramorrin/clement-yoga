@@ -9,3 +9,14 @@
 body {
     font-family: open sans, sans-serif;
 }
+
+h1, h2 {
+    font-family: amatic sc, sans-serif;
+    letter-spacing: 5px;
+    color: black;
+}
+
+#logo {
+    text-align: center;
+    font-size: 500%;
+}
