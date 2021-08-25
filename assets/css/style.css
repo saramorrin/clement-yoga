@@ -25,7 +25,7 @@ h1, h2 {
 #menu {
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 100%;
+    font-size: 90%;
     text-align: center;
     list-style-type: none;
     background-color: #D9BDB2;
@@ -39,8 +39,8 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
-    display: inline-block;
-    padding: none;
+    display: inline;
+    margin: 1%;
 }
 
 #menu a:hover {
@@ -87,7 +87,7 @@ h1, h2 {
 }
 
 #types {
-    height: 800px;
+    height: 600px;
 }
 
 #left-about {
@@ -128,4 +128,15 @@ h1, h2 {
 }
 #types h2 {
     text-align: center;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+    font-size: 150%;
+    margin: 1%;
+
 }
