@@ -14,6 +14,7 @@ h1, h2 {
     font-family: amatic sc, sans-serif;
     letter-spacing: 5px;
     color: black;
+    padding-bottom: 30px;
 }
 
 #logo {
@@ -25,6 +26,9 @@ h1, h2 {
     letter-spacing: 5px;
     font-size: 100%;
     text-align: center;
+    list-style-type: none;
+    background-color: #D9BDB2;
+    padding: 5px;
 }
 
 #menu li {
@@ -35,8 +39,7 @@ h1, h2 {
     text-decoration: none;
     color: inherit;
     display: inline-block;
-    padding: 20px;
-    background: #D9BDB2;
+    padding: none;
 }
 
 #menu a:hover {
