@@ -73,3 +73,15 @@ h1, h2 {
     text-align: center;
     padding: 40px;
 }
+
+#welcome {
+    font-size: 130%;
+    text-align: center;
+    margin-top: 20px
+}
+
+#welcome p {
+    font-size: 70%;
+    padding: 20px;
+    background-color: #FFE9E5;
+}
