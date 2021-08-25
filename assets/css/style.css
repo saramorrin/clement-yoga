@@ -111,5 +111,21 @@ h1, h2 {
     height: 300px;
     width: 100%;
     background: url('../images/image\ 1\ yoga\ pose.jpg') no-repeat center;
-    padding-top: 40px;
-}   
+    padding-top: 30px;
+} 
+
+.right-about-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/image\ yoga\ retreat.jpeg') no-repeat center;
+    padding-top: 30px;
+}
+
+.centre-about-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/image\ meditation.jpeg') no-repeat center;
+}
+#types h2 {
+    text-align: center;
+}
