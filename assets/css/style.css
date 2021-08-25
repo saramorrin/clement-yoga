@@ -138,5 +138,15 @@ h1, h2 {
     display: inline;
     font-size: 150%;
     margin: 1%;
+    padding: 7%;
+}
 
+.social-links i {
+    color: #D9BDB2;
+}
+
+#contact-details {
+    text-align: center;
+    background-color: #D9BDB2;
+    margin-top: 20px;
 }
