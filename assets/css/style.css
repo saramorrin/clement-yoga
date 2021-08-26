@@ -225,6 +225,11 @@ h1, h2 {
     margin-left: 100px;
 }
 
+.contact-form-box {
+    border: 2px solid black;
+    padding: 10px;
+  }
+
 .contact-form {
     border: black dotted 3px;
     left: 10%;
@@ -247,12 +252,11 @@ h1, h2 {
 .submit-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
     font-size: 100%;
     background-color: #D9BDB2;
     color:black;
-    
 }
 
 .submit-button :hover {
