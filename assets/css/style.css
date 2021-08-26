@@ -54,14 +54,15 @@ h1, h2 {
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url('../images/hero\ image.jpeg') no-repeat center center;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
 }   
 
 #circle-text {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid lightgrey;
+    background-color: white;
 
     top: 225px;
     right: 300px;
@@ -225,7 +226,7 @@ h1, h2 {
     margin-left: 100px;
 }
 
-.contact-form-box {
+.contact-form-box-inner-box {
     border: 2px solid black;
     padding: 10px;
   }
@@ -236,6 +237,7 @@ h1, h2 {
     max-width: 400px;
     position: absolute;
     padding: 30px;
+    background-color: white
 
 }
 
