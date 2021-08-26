@@ -213,6 +213,57 @@ h1, h2 {
     margin-left: 50px;
 }
 
+.form-section {
+    background: url('../images/image\ contact\ page.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    margin-bottom: 20px;
+}
+
+.form-section h1, h2 {
+    margin-left: 100px;
+}
+
+.contact-form {
+    border: black dotted 3px;
+    left: 10%;
+    max-width: 400px;
+    position: absolute;
+    padding: 30px;
+
+}
+
+.text-input {
+    background: transparent;
+    color: black;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #D9BDB2;
+    color:black;
+    
+}
+
+.submit-button :hover {
+    color: white;
+}
+
+.submit-button i {
+    padding-left: 10px;
+}
+
+
 
 
 

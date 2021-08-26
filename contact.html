@@ -33,8 +33,27 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <h1>Contact</h1>
+    <section class="form-section">
+        <h1>Inhale in...<br>...exhale out</h1>
+        <h2>Take your first steps to a more balanced way of life</h2>
+        <form class="contact-form" method="post" action="">
+        <fieldset>
+        <legend>Get In Touch</legend>
+        <label for="fname">First Name</label>
+        <input id="fname" class="text-input" type="text" name="first_name" required />
+        <label for="lname">Last Name</label>
+        <input id="lname" class="text-input" type="text" name="last_name" required />
+        <label for="email">Email</label>
+        <input id="email" class="text-input" type="email" name="email" required />
+        <label for="yoga">Yoga</label>
+        <input id="yoga" type="radio" name="preference" value="yoga" required />
+        <label for="meditation">Meditation</label>
+        <input id="meditation" type="radio" name="preference" value="meditation" required />
+        <label for="retreat">Retreat</label>
+        <input id="retreat" type="radio" name="preference" value="retreat" required />
+        </fieldset>
+        <button class="submit-button">Submit<i class="fas fa-envelope"></i></button>
+        </form>
     </section>
     
     <footer>
