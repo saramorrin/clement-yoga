@@ -215,15 +215,16 @@ h1, h2 {
 }
 
 .form-section {
-    background: url('../images/image\ contact\ page.jpeg') no-repeat;
+    background: url('../images/image-contact-page-background.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 1200px;
     margin-bottom: 20px;
 }
 
 .form-section h1, h2 {
     margin-left: 100px;
+    padding-top: 20px;
 }
 
 .contact-form-box-inner-box {
