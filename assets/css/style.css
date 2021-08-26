@@ -158,8 +158,10 @@ h1, h2 {
 
 #instructions {
     background-color: #FFE9E5; 
-    height: 2000px;
+    height: 1800px;
     margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 #instructions h1 {
@@ -175,7 +177,9 @@ h1, h2 {
 
 #instructions p {
     font-size: 90%;
-    text-align: center;
+    line-height: 50px;
+    margin-right: 150px;
+    float: right ;
 }
 
 #instructions i {
@@ -188,43 +192,28 @@ h1, h2 {
     margin-right: 50px;
 }
 
-.instruction-image-one {
-    height: 300px;
-    width: 100%;
-    background: url('../images/image\ mat\ roll\ out.jpeg') no-repeat;
-    margin-bottom: 50px; 
+.instruction-image-one img {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.instruction-image-two img {
     margin-left: 50px;
 }
 
-.instruction-image-two {
-    height: 300px;
-    width: 100%;
-    background: url('../images/image\ palms\ together.jpeg') no-repeat;
-    margin-bottom: 50px; 
+.instruction-image-three img {
     margin-left: 50px;
 }
 
-.instruction-image-three {
-    height: 300px;
-    width: 100%;
-    background: url("../images/image\ palms\ together\ front.jpeg") no-repeat;
-    margin-bottom: 50px;
+.instruction-image-four img {
     margin-left: 50px;
 }
 
-.instruction-image-four {
-    height: 300px;
-    width: 100%;
-    background: url("../images/image\ forward\ fold.jpeg") no-repeat;
-    margin-bottom: 50px;
+.instruction-image-five img {
     margin-left: 50px;
 }
 
-.instruction-image-five {
-    height: 300px;
-    width: 100%;
-    background: url('../images/image\ lie\ back.jpeg') no-repeat;
-    margin-bottom: 50px;
-    margin-left: 50px;
-}
+
+
+
 
