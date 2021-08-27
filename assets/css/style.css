@@ -97,59 +97,24 @@ h1, h2 {
 
 /* styles section */
 
-#types {
-    height: 600px;
+#left-styles-image {
+   
+ 
 }
 
-#types p {
-    text-align: center;
-    font-size: 90%;
-}
-
-#left-about {
-    padding-top: 20px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 20px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-}
-
-.left-about-image {
-    height: 300px;
-    width: 100%;
+#right-styles-image {
     
-    padding-top: 30px;
-} 
-
-.right-about-image {
-    height: 300px;
-    width: 100%;
-    
-    padding-top: 30px;
-}
-
-.centre-about-image {
-    height: 300px;
-    width: 100%;
-    
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
 }
 
 img:hover {
     box-shadow: 0 0 3px 2px black;
 }
 
-#types h2 {
-    text-align: center;
-}
+
 
 /* social media links and footer */
 
@@ -199,13 +164,6 @@ img:hover {
     margin-bottom: 30px;
 }
 
-#instructions p {
-    font-size: 90%;
-    line-height: 50px;
-    margin-right: 150px;
-    float: right ;
-}
-
 #instructions i {
     padding-left: 10px;
     padding-right: 10px;
@@ -216,25 +174,80 @@ img:hover {
     margin-right: 50px;
 }
 
-.instruction-image-one img {
-    margin-left: 50px;
-    margin-bottom: 20px;
+.instruction-one {
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-.instruction-image-two img {
-    margin-left: 50px;
+.img {
+    width: 100%;
 }
 
-.instruction-image-three img {
-    margin-left: 50px;
+.instruction-one-image {
+    flex-basis: 40%;
 }
 
-.instruction-image-four img {
-    margin-left: 50px;
+.instruction-one-text{
+    padding-left: 20px;
+    
 }
 
-.instruction-image-five img {
-    margin-left: 50px;
+.instruction-two {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.instruction-two-image {
+    flex-basis: 40%;
+}
+
+.instruction-two-text{
+    padding-left: 20px;
+    
+}
+
+.instruction-three {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.instruction-three-image {
+    flex-basis: 40%;
+}
+
+.instruction-three-text{
+    padding-left: 20px;
+}
+
+.instruction-four {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.instruction-four-image {
+    flex-basis: 40%;
+}
+
+.instruction-four-text{
+    padding-left: 20px;
+}
+
+.instruction-five {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.instruction-five-image {
+    flex-basis: 40%;
+}
+
+.instruction-five-text{
+    padding-left: 20px;
 }
 
 /* contact form background image and text */
