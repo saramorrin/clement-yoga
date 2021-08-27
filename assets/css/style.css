@@ -126,21 +126,25 @@ h1, h2 {
 .left-about-image {
     height: 300px;
     width: 100%;
-    background: url('../images/image-type-yoga-pose.jpg') no-repeat center;
+    
     padding-top: 30px;
 } 
 
 .right-about-image {
     height: 300px;
     width: 100%;
-    background: url('../images/image-type-retreat.jpeg') no-repeat center;
+    
     padding-top: 30px;
 }
 
 .centre-about-image {
     height: 300px;
     width: 100%;
-    background: url('../images/image-type-meditation.jpeg') no-repeat center;
+    
+}
+
+img:hover {
+    box-shadow: 0 0 3px 2px black;
 }
 
 #types h2 {
