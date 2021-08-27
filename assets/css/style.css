@@ -164,6 +164,10 @@ h1, h2 {
     color: #D9BDB2;
 }
 
+.social-links i:hover {
+    color: black;
+}
+
 #contact-details {
     text-align: center;
     background-color: #D9BDB2;
@@ -258,7 +262,6 @@ h1, h2 {
     position: absolute;
     padding: 30px;
     background-color: white
-
 }
 
 .text-input {
