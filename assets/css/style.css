@@ -126,21 +126,21 @@ h1, h2 {
 .left-about-image {
     height: 300px;
     width: 100%;
-    background: url('../images/image\ 1\ yoga\ pose.jpg') no-repeat center;
+    background: url('../images/image-type-yoga-pose.jpg') no-repeat center;
     padding-top: 30px;
 } 
 
 .right-about-image {
     height: 300px;
     width: 100%;
-    background: url('../images/image\ yoga\ retreat.jpeg') no-repeat center;
+    background: url('../images/image-type-retreat.jpeg') no-repeat center;
     padding-top: 30px;
 }
 
 .centre-about-image {
     height: 300px;
     width: 100%;
-    background: url('../images/image\ meditation.jpeg') no-repeat center;
+    background: url('../images/image-type-meditation.jpeg') no-repeat center;
 }
 
 #types h2 {
