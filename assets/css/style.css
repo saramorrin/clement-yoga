@@ -97,6 +97,16 @@ h1, h2 {
 
 /* styles section */
 
+#styles {
+    text-align: center;
+    
+}
+
+#styles h2 {
+    margin-left: 0;
+    
+}
+
 #left-styles-image {
    
  
@@ -192,7 +202,6 @@ img:hover {
     padding-left: 20px;
     
 }
-
 .instruction-two {
     display: flex;
     align-items: center;
