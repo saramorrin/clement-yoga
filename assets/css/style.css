@@ -10,6 +10,8 @@ body {
     font-family: open sans, sans-serif;
 }
 
+/* headings and logo */
+
 h1, h2 {
     font-family: amatic sc, sans-serif;
     letter-spacing: 5px;
@@ -21,6 +23,8 @@ h1, h2 {
     text-align: center;
     font-size: 500%;
 }
+
+/* navigation links */
 
 #menu {
     text-transform: uppercase;
@@ -51,6 +55,8 @@ h1, h2 {
     border-bottom: 1px solid black;
 }
 
+/* hero image and circle text */
+
 #hero-image {
     height: 800px;
     width: 100%;
@@ -75,6 +81,8 @@ h1, h2 {
     padding: 40px;
 }
 
+/* welcome and about section */
+
 #welcome {
     font-size: 130%;
     text-align: center;
@@ -86,6 +94,8 @@ h1, h2 {
     padding: 20px;
     background-color: #FFE9E5;
 }
+
+/* styles section */
 
 #types {
     height: 600px;
@@ -132,9 +142,12 @@ h1, h2 {
     width: 100%;
     background: url('../images/image\ meditation.jpeg') no-repeat center;
 }
+
 #types h2 {
     text-align: center;
 }
+
+/* social media links and footer */
 
 .social-links{
     text-align: center;
@@ -156,6 +169,8 @@ h1, h2 {
     background-color: #D9BDB2;
     margin-top: 20px;
 }
+
+/* demo meditation instructions and images */
 
 #instructions {
     background-color: #FFE9E5; 
@@ -214,6 +229,8 @@ h1, h2 {
     margin-left: 50px;
 }
 
+/* contact form background image and text */
+
 .form-section {
     background: url('../images/image-contact-page-background.jpeg') no-repeat;
     background-size: cover;
@@ -226,6 +243,8 @@ h1, h2 {
     margin-left: 100px;
     padding-top: 20px;
 }
+
+/* contact form */
 
 .contact-form-box-inner-box {
     border: 2px solid black;
