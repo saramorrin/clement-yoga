@@ -80,8 +80,8 @@ h1, h2 {
 #circle-text h1 {
     text-align: center;
     padding: 40px;
-    margin-top: 15px;
-    display: inline-block;
+    margin-top: 5px;
+    
     position: relative;
 }
 
@@ -135,7 +135,7 @@ h1, h2 {
     box-shadow: 0 0 3px 2px black;
 }
 
-#bottom-styles-image img {
+#bottom-styles-image img:hover {
     box-shadow: 0 0 3px 2px black;
 }
 
@@ -181,7 +181,6 @@ h1, h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 5px;
-    
 }
 
 
