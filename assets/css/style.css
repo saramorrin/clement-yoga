@@ -98,6 +98,9 @@ h1, h2 {
 /* styles section */
 
 #styles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -106,7 +109,7 @@ h1, h2 {
 }
 
 #left-styles-image img {
-   margin-top: 20px;
+    margin-top: 20px;
    border: lightgrey solid 5px;
 }
 
@@ -115,7 +118,7 @@ h1, h2 {
     border: lightgrey solid 5px;
 }
 
-#centre-styles-image img {
+#bottom-styles-image img {
     margin-top: 20px;
     border: lightgrey solid 5px;
 }
@@ -128,11 +131,9 @@ h1, h2 {
     box-shadow: 0 0 3px 2px black;
 }
 
-#centre-styles-image img:hover {
+#bottom-styles-image img {
     box-shadow: 0 0 3px 2px black;
 }
-
-
 
 /* social media links and footer */
 
@@ -166,105 +167,59 @@ h1, h2 {
 #instructions {
     background-color: #FFE9E5; 
     height: 1800px;
-    margin-bottom: 30px;
+    margin: 0px 100px 30px 100px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-#instructions h1 {
-    text-align: center;
-    margin-top: 30px;
+.instruction-one img {
+    vertical-align: middle;
+    padding-bottom: 20px;
 }
 
-#instructions h4 {
-    font-size: 90%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#instructions i {
+.instruction-one p {
+    display: inline-block;
     padding-left: 10px;
-    padding-right: 10px;
 }
 
-#instructions {
-    margin-left: 50px;
-    margin-right: 50px;
+.instruction-two img {
+    vertical-align: middle;
+    padding-bottom: 20px;
 }
 
-.instruction-one {
-    display: flex;
-    align-items: center;
-    justify-content: center
+.instruction-two p {
+    display: inline-block;
+    padding-left: 10px;
 }
 
-.img {
-    width: 100%;
+.instruction-three img {
+    vertical-align: middle;
+    padding-bottom: 20px;
 }
 
-.instruction-one-image {
-    flex-basis: 40%;
+.instruction-three p {
+    display: inline-block;
+    padding-left: 10px;
 }
 
-.instruction-one-text{
-    padding-left: 20px;
-    
-}
-.instruction-two {
-    display: flex;
-    align-items: center;
-    justify-content: center
+.instruction-four img {
+    vertical-align: middle;
+    padding-bottom: 20px;
 }
 
-.instruction-two-image {
-    flex-basis: 40%;
+.instruction-four p {
+    display: inline-block;
+    padding-left: 10px;
 }
 
-.instruction-two-text{
-    padding-left: 20px;
-    
+.instruction-five img {
+    vertical-align: middle;
+    padding-bottom: 20px;
 }
 
-.instruction-three {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.instruction-three-image {
-    flex-basis: 40%;
-}
-
-.instruction-three-text{
-    padding-left: 20px;
-}
-
-.instruction-four {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.instruction-four-image {
-    flex-basis: 40%;
-}
-
-.instruction-four-text{
-    padding-left: 20px;
-}
-
-.instruction-five {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.instruction-five-image {
-    flex-basis: 40%;
-}
-
-.instruction-five-text{
-    padding-left: 20px;
+.instruction-five p {
+    display: inline-block;
+    padding-left: 10px;
 }
 
 /* contact form background image and text */
