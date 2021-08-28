@@ -17,6 +17,7 @@ h1, h2 {
     letter-spacing: 5px;
     color: black;
     padding-bottom: 30px;
+    margin-top: 35px;
 }
 
 #logo {
@@ -34,8 +35,8 @@ h1, h2 {
     list-style-type: none;
     background-color: #D9BDB2;
     padding: 5px;
+    margin-bottom: 0px;
 }
-
 #menu li {
     display: inline;
 }
@@ -61,7 +62,7 @@ h1, h2 {
     height: 800px;
     width: 100%;
     background: url('../images/hero-image.jpeg') no-repeat center center;
-}   
+}  
 
 #circle-text {
     width: 200px;
@@ -79,6 +80,9 @@ h1, h2 {
 #circle-text h1 {
     text-align: center;
     padding: 40px;
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
 }
 
 /* welcome and about section */
@@ -229,7 +233,25 @@ h1, h2 {
     background-size: cover;
     background-position: center;
     height: 1200px;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+/* animates zoom effect on contact page */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}   
+
+/* creates level of zoom for background image on contact page */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .form-section h1, h2 {
@@ -242,7 +264,7 @@ h1, h2 {
 .contact-form-box-inner-box {
     border: 2px solid black;
     padding: 10px;
-  }
+}
 
 .contact-form {
     border: black dotted 3px;
