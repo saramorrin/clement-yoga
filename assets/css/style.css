@@ -176,6 +176,20 @@ h1, h2 {
     padding-right: 100px;
 }
 
+#instructions h1, h4 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 5px;
+    
+}
+
+
+#instructions i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .instruction-one img {
     vertical-align: middle;
     padding-bottom: 20px;
