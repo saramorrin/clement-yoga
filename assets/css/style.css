@@ -60,7 +60,7 @@ h1, h2 {
 
 #hero-image {
     height: 800px;
-    width: 100%;
+    max-width: 100%;
     background: url('../images/hero-image.jpeg') no-repeat center center;
 }  
 
@@ -183,7 +183,6 @@ h1, h2 {
     line-height: 5px;
 }
 
-
 #instructions i {
     padding-left: 10px;
     padding-right: 10px;
@@ -246,6 +245,7 @@ h1, h2 {
     background-size: cover;
     background-position: center;
     height: 1200px;
+    max-width: 100%;
     margin-top: 60px;
     margin-bottom: 60px;
 
@@ -314,6 +314,63 @@ h1, h2 {
 
 .submit-button i {
     padding-left: 10px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1050) {
+    #circle-text, #circle-text h1 {
+        width: 65%;
+        float: right;
+        position: fixed;
+    }
+}
+
+    @media screen and (max-width: 1330) {
+
+    #instructions h1, h4 {
+        width: 50%;
+    }
+
+    .instruction-one img {
+        width: 50%;
+    }
+
+    .instruction-one p {
+        width: 40%;
+    }
+
+    .instruction-two img {
+        width: 50%;
+    }
+
+    .instruction-two p {
+        width: 40%;
+    }
+
+    .instruction-three img {
+        width: 50%;
+    }
+
+    .instruction-three p {
+        width: 40%;
+    }
+
+    .instruction-four img {
+        width: 50%;
+    }
+
+    .instruction-four p {
+        width: 40%;
+    }
+
+    .instruction-five img {
+        width: 50%;
+    }
+
+    .instruction-five p {
+        width: 40%;
+    }
 }
 
 
