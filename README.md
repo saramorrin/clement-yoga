@@ -11,6 +11,7 @@ Users of the site will be able to see the services which Clement Yoga offer, alo
 The basic functions requested by the client were:
 - Picture examples of the kinds of practices offered
 - A simple meditation demonstration to give potential clients some information to take away from the site which could be built upon should they wish to join
+- Convey a message of finding a way to deliver a more balanced, tranquil and mindful way of life through the practices and meditation techniques on offer.
 - Links to all social media channels as currently most clients are directed to the business from these
 - Contact page
 
@@ -48,8 +49,7 @@ Navigation Bar and Landing Page
 - The landing page image has been used to immediately demonstrate what the website can offer and a circle image of text has also been added to summarise all services available.
 - Further down the page there are three images to promote the three types of services available to the user. Each image has been picked as it provides a clear visual description of the service along with a brief text underneath. Each image has a hover effect which when clicked takes the user to the contact page form.
 
-![Navigation Bar](assets/wireframes/nav-screenshot.jpg)
-![Hero Image](assets/wireframes/landing-page-hero-image.jpg)
+![Landing Page](assets/wireframes/landing-page.jpg)
 ![Yoga Style Image](assets/wireframes/yoga-landing-page.jpg)
 ![Retreats Style Image](assets/wireframes/retreats-landing-page.jpg)
 ![Meditation Style Image](assets/wireframes/meditation-landing-page.jpg)
@@ -61,6 +61,7 @@ Techniques Page
 Contact Page
 - The contact page has a contact form for users to input their name and email address. Users must also choose which service they are interested in being contacted about by selecting either Yoga, Meditation or Retreat. 
 - The page also features a background image with a zoom effect to add another level of interest for the user and to provide a more special styling experience.
+_ The page also some inspiration 
 
 ![Contact Form](assets/wireframes/contact-form-screenshot.jpg)
 
