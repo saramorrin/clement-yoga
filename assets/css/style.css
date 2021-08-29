@@ -333,57 +333,41 @@ h1, h2 {
     }
 }
 
-    @media screen and (max-width: 1330px) {
-
-    #instructions h1, h4 {
-        width: 50%;
+@media screen and (max-width: 768px) {
+    #circle-text {
+        width: 188px !important;
+        height: 180px;
+        top: 205px;
+        right: 0%;
     }
 
-    .instruction-one img {
-        width: 50%;
-    }
-
-    .instruction-one p {
-        width: 40%;
-        text-align: right;
-    }
-
-    .instruction-two img {
-        width: 50%;
-    }
-
-    .instruction-two p {
-        width: 40%;
-        text-align: right;
-    }
-
-    .instruction-three img {
-        width: 50%;
-    }
-
-    .instruction-three p {
-        width: 40%;
-        text-align: right;
-    }
-
-    .instruction-four img {
-        width: 50%;
-    }
-
-    .instruction-four p {
-        width: 40%;
-        text-align: right;
-    }
-
-    .instruction-five img {
-        width: 50%;
-    }
-
-    .instruction-five p {
-        width: 40%;
-        text-align: right;
+    #circle-text h1 {
+        padding: 20px;
     }
 }
+
+    @media screen and (max-width: 375px) {
+    #instructions {
+        height: 2400px 
+        margin: 0 !important;
+    }
+
+    #instructions h1, h4 {
+        line-height: unset;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #instructions {
+        height: 2400px;
+        margin: 0 !important;
+    }
+
+    #instructions h1, h4 {
+        line-height: unset;
+    }
+}
+
 
 
 
