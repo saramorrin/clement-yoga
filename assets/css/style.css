@@ -318,7 +318,7 @@ h1, h2 {
 
 /* media queries */
 
-@media screen and (max-width: 1050) {
+@media screen and (max-width: 1050px) {
     #circle-text, #circle-text h1 {
         width: 65%;
         float: right;
@@ -326,7 +326,7 @@ h1, h2 {
     }
 }
 
-    @media screen and (max-width: 1330) {
+    @media screen and (max-width: 1330px) {
 
     #instructions h1, h4 {
         width: 50%;
@@ -338,6 +338,7 @@ h1, h2 {
 
     .instruction-one p {
         width: 40%;
+        text-align: right;
     }
 
     .instruction-two img {
@@ -346,6 +347,7 @@ h1, h2 {
 
     .instruction-two p {
         width: 40%;
+        text-align: right;
     }
 
     .instruction-three img {
@@ -354,6 +356,7 @@ h1, h2 {
 
     .instruction-three p {
         width: 40%;
+        text-align: right;
     }
 
     .instruction-four img {
@@ -362,6 +365,7 @@ h1, h2 {
 
     .instruction-four p {
         width: 40%;
+        text-align: right;
     }
 
     .instruction-five img {
@@ -370,6 +374,7 @@ h1, h2 {
 
     .instruction-five p {
         width: 40%;
+        text-align: right;
     }
 }
 
