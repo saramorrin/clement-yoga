@@ -172,7 +172,6 @@ h1, h2 {
 
 #instructions {
     background-color: #FFE9E5; 
-    height: 1800px;
     margin: 0px 100px 30px 100px;
     padding-left: 100px;
     padding-right: 100px;
@@ -232,7 +231,6 @@ h1, h2 {
 
 .instruction-five img {
     vertical-align: middle;
-    padding-bottom: 20px;
 }
 
 .instruction-five p {
@@ -344,6 +342,12 @@ h1, h2 {
 
     #circle-text h1 {
         padding: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #circle-text {
+        margin-top: 110px;
     }
 }
 

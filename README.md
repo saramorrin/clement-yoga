@@ -78,7 +78,10 @@ Footer
 ![Footer](assets/images-readme/footer-screenshot.jpg)
 
 # Testing
+- I have confirmed that all headings in the navigation bar direct the user to the revelant page when clicked.
+- I have confirmed that all social media links open in a new tab when clicked and redirect to the relevant website.
 - I have confirmed that the form works correctly. All entry fields must be completed before the form can be submitted.
+- I have confirmed that all images on the homepage direct the user the the contact page when clicked.
 
 # Bugs
 
