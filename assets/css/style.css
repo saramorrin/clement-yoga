@@ -370,12 +370,21 @@ h1, h2 {
 
 @media screen and (max-width: 768px){
     #instructions {
-        height: 2400px;
+        height: 2150px;
         margin: 0 !important;
     }
 
     #instructions h1, h4 {
         line-height: unset;
+    }
+
+    #instructions p {
+        padding-bottom: 20px;
+        display: table;
+    }
+
+    .social-links {
+        padding-top: 20px;
     }
 }
 
