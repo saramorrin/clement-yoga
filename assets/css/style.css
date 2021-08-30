@@ -348,7 +348,7 @@ h1, h2 {
 
     @media screen and (max-width: 375px) {
     #instructions {
-        height: 2800px;
+        height: 2400px !important;
         padding-bottom: 40px;
         padding-left: 75px;
         padding-right: 87px;
@@ -364,6 +364,10 @@ h1, h2 {
 
     #footer {
         height: 25px;
+    }
+
+    .form-section h1, h2 {
+        margin-left: 40px;
     }
 
 }
