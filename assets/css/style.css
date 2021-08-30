@@ -370,6 +370,10 @@ h1, h2 {
         margin-left: 40px;
     }
 
+    .form-section {
+        margin-right: 18px;
+    }
+
     .contact-form {
         right: 10%;
     }
@@ -393,6 +397,10 @@ h1, h2 {
 
     .social-links {
         padding-top: 20px;
+    }
+
+    .form-section {
+        margin-right: 37px;
     }
 }
 
