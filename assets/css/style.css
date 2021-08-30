@@ -371,7 +371,7 @@ h1, h2 {
     }
 
     .form-section {
-        margin-right: 18px;
+        margin-right: 18px !important;
     }
 
     .contact-form {
