@@ -7,7 +7,7 @@ Users of the site will be able to see the services which Clement Yoga offer, alo
 
 A live website can be found [here](https://saramorrin.github.io/clement-yoga/index.html)
 
-![Website Preview](assets/images-readme/preview-device-image.jpg)
+![Website Preview](assets/images-readme/responsive-image.jpg)
 
 # Site Design Considerations
 ### Client Expectations
@@ -67,7 +67,6 @@ Techniques Page
 Contact Page
 - The contact page has a contact form for users to input their name and email address. Users must also choose which service they are interested in being contacted about by selecting either Yoga, Meditation or Retreat. 
 - The page also features a background image with a zoom effect to add another level of interest for the user and to provide a more special styling experience.
-_ The page also some inspiration 
 
 ![Contact Form](assets/images-readme/contact-form-screenshot.jpg)
 
