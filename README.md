@@ -10,6 +10,7 @@ A live website can be found [here](https://saramorrin.github.io/clement-yoga/ind
 ![Website Preview](assets/images-readme/responsive-image.jpg)
 
 # Site Design Considerations
+
 ### Client Expectations
 
 The basic functions requested by the client were:
@@ -32,17 +33,21 @@ The client would like the website to convey a welcoming, serene and tranquil ton
 - User to be able to view the site across an array of devices without loss of functionality
 - A user with disabilities will be able to navigate the site freely without obstruction
 
-### Colour Scheme and Font
+## Colour Scheme and Font
 
-### Wireframes
+[My Color Space](https://mycolor.space/?hex=%23D9BDB2&sub=1) was used to select a complimentary colour pallet based on the images used. The aim was to ensure the best use of contrasting colours inline with accessibility guidelines.  
+The colours used were:
+- #D9BDB2
+- #FFE9E5
+- #B17067
 
-Homepage
+## Site Skeleton
 
-Technique Page
+[Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format. 
 
-Contact Page
+![Balsamiq Mobile Image](assets/images-readme/balsamiq-mobile.jpg)
 
-
+![Balsamiq Desktop Image](assets/images-readme/balsamiq-desktop.jpg)
 
 # Features
 
@@ -54,23 +59,26 @@ Navigation Bar and Landing Page
 - Further down the page there are three images to promote the three types of services available to the user. Each image has been picked as it provides a clear visual description of the service along with a brief text underneath. Each image has a hover effect which when clicked takes the user to the contact page form.
 
 ![Landing Page](assets/images-readme/landing-page.jpg)
+
 ![Yoga Style Image](assets/images-readme/yoga-landing-page.jpg)
+
 ![Retreats Style Image](assets/images-readme/retreats-landing-page.jpg)
+
 ![Meditation Style Image](assets/images-readme/meditation-landing-page.jpg)
 
-Techniques Page
+### Techniques Page
 - The technique page provides a simple step by step mediation practice for the user to copy at home. There are five images each with accompanying  text detailing how to carry out the techiques.
 - Going forward, this could be regularly updated and changed to different techniques to provide newness to the site.
 
 ![Techniques Page](assets/images-readme/techniques-screenshot.jpg)
 
-Contact Page
+### Contact Page
 - The contact page has a contact form for users to input their name and email address. Users must also choose which service they are interested in being contacted about by selecting either Yoga, Meditation or Retreat. 
 - The page also features a background image with a zoom effect to add another level of interest for the user and to provide a more special styling experience.
 
 ![Contact Form](assets/images-readme/contact-form-screenshot.jpg)
 
-Footer
+### Footer
 - The footer contains icons to the company's social media pages which all open in a separate window. They also have a hover effect to improve the user experience.
 - The footer contains contact details for the company, including a location address and telephone number.
 
@@ -80,7 +88,8 @@ Footer
 - I have confirmed that all headings in the navigation bar direct the user to the revelant page when clicked.
 - I have confirmed that all social media links open in a new tab when clicked and redirect to the relevant website.
 - I have confirmed that the form works correctly. All entry fields must be completed before the form can be submitted.
-- I have confirmed that all images on the homepage direct the user the the contact page when clicked.
+- I have confirmed that all images on the homepage direct the user the the contact page when clicked.  
+-[EightShapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23D9BDB2%0D%0A%23FFE9E5%0D%0A%23B17067%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) was used to check that text 
 
 # Bugs
 
@@ -115,8 +124,6 @@ Contact Page
 
 ![Contact Page](assets/images-readme/lighthouse-contact-page.jpg)
 
-
-
 # Deployment
 
 The site was deployed to GitHub pages.
@@ -131,6 +138,8 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here - (https://github.com/saramorrin/clement-yoga)
 
 # Credits
+- I viewed the following tutorials on YouTube to further help me expand my knowledge on how to align text next to images [EZ Tutorials](https://www.youtube.com/watch?v=IDcf8Ig-05Y)
+- I used W3Schools Tutorial pages to help further my understanding of coding media queries, hero image text placement and zoom effects.
 
 # Media
  - All fonts came from [Google Fonts](https://fonts.google.com/) 
