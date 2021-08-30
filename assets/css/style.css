@@ -348,13 +348,24 @@ h1, h2 {
 
     @media screen and (max-width: 375px) {
     #instructions {
-        height: 2400px 
-        margin: 0 !important;
+        height: 2800px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 87px;
     }
 
     #instructions h1, h4 {
         line-height: unset;
     }
+
+    #instructions p {
+        padding-bottom: 20px;
+    }
+
+    #footer {
+        height: 25px;
+    }
+
 }
 
 @media screen and (max-width: 768px){
