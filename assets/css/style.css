@@ -370,6 +370,10 @@ h1, h2 {
         margin-left: 40px;
     }
 
+    .contact-form {
+        right: 10%;
+    }
+
 }
 
 @media screen and (max-width: 768px){
