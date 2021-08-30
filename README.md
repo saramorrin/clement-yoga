@@ -83,9 +83,37 @@ Footer
 # Bugs
 
 # Validator Testing
-- HTML
-- CSS
-- Accessibility
+## HTML
+
+[W3C Markup](https://validator.w3.org/#validate_by_input) was used to check for any errors within my HTML pages.
+
+![W3C Validator](assets/images-readme/html-checker-error.jpg) 
+
+![W3C Validator](assets/images-readme/html-checker-no-error.jpg) 
+
+![W3C Validator](assets/images-readme/html-checker-full-site.jpg) 
+
+## CSS
+
+[W3C CSS Validator](https://validator.w3.org/#validate_by_uri) was used to check for any error within my CSS stylesheet. No errors were found.
+
+![W3C Validator](assets/images-readme/css-validator.jpg)
+
+## Accessibility
+
+Landing Page
+
+![Landing Page](assets/images-readme/lighthouse-homepage.jpg)
+
+Techniques Page
+
+![Techniques Page](assets/images-readme/lighthouse-techniques-page.jpg)
+
+Contact Page
+
+![Contact Page](assets/images-readme/lighthouse-contact-page.jpg)
+
+
 
 # Deployment
 
