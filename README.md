@@ -5,6 +5,10 @@ Clement Yoga also offers personalised meditation techniques and yoga retreats to
 
 Users of the site will be able to see the services which Clement Yoga offer, along with a step by step simple meditation technique to follow at home and a contact page to get in touch for further details.
 
+A live website can be found [here](https://saramorrin.github.io/clement-yoga/index.html)
+
+![Website Preview](assets/images-readme/preview-device-image.jpg)
+
 # Site Design Considerations
 ### Client Expectations
 
@@ -49,27 +53,29 @@ Navigation Bar and Landing Page
 - The landing page image has been used to immediately demonstrate what the website can offer and a circle image of text has also been added to summarise all services available.
 - Further down the page there are three images to promote the three types of services available to the user. Each image has been picked as it provides a clear visual description of the service along with a brief text underneath. Each image has a hover effect which when clicked takes the user to the contact page form.
 
-![Landing Page](assets/wireframes/landing-page.jpg)
-![Yoga Style Image](assets/wireframes/yoga-landing-page.jpg)
-![Retreats Style Image](assets/wireframes/retreats-landing-page.jpg)
-![Meditation Style Image](assets/wireframes/meditation-landing-page.jpg)
+![Landing Page](assets/images-readme/landing-page.jpg)
+![Yoga Style Image](assets/images-readme/yoga-landing-page.jpg)
+![Retreats Style Image](assets/images-readme/retreats-landing-page.jpg)
+![Meditation Style Image](assets/images-readme/meditation-landing-page.jpg)
 
 Techniques Page
 - The technique page provides a simple step by step mediation practice for the user to copy at home. There are five images each with accompanying  text detailing how to carry out the techiques.
 - Going forward, this could be regularly updated and changed to different techniques to provide newness to the site.
+
+![Techniques Page](assets/images-readme/techniques-screenshot.jpg)
 
 Contact Page
 - The contact page has a contact form for users to input their name and email address. Users must also choose which service they are interested in being contacted about by selecting either Yoga, Meditation or Retreat. 
 - The page also features a background image with a zoom effect to add another level of interest for the user and to provide a more special styling experience.
 _ The page also some inspiration 
 
-![Contact Form](assets/wireframes/contact-form-screenshot.jpg)
+![Contact Form](assets/images-readme/contact-form-screenshot.jpg)
 
 Footer
 - The footer contains icons to the company's social media pages which all open in a separate window. They also have a hover effect to improve the user experience.
 - The footer contains contact details for the company, including a location address and telephone number.
 
-![Footer](assets/wireframes/footer-screenshot.jpg)
+![Footer](assets/images-readme/footer-screenshot.jpg)
 
 # Testing
 - I have confirmed that the form works correctly. All entry fields must be completed before the form can be submitted.
@@ -82,6 +88,17 @@ Footer
 - Accessibility
 
 # Deployment
+
+The site was deployed to GitHub pages.
+
+The steps to deploy are as follows:
+
+In the GitHub repository, navigate to the Settings tab
+Select the Pages sub-menu
+From the source section drop-down menu, select the Master Branch, and then hit save
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
+
+The live link can be found here - (https://github.com/saramorrin/clement-yoga)
 
 # Credits
 
