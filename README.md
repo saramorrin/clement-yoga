@@ -54,11 +54,11 @@ Instead, [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=amatic) w
 # Features
 
 Navigation Bar and Landing Page
-- The navigation bar features at the top of all three pages of the site and is fully responsive.
-- The uniform styling aims to link all pages together for a seamless, fluid feel.
-- The bar contains links to all other pages across the site.
-- The landing page image has been used to immediately demonstrate what the website can offer and a circle image of text has also been added to summarise all services available.
-- Further down the page there are three images to promote the three types of services available to the user. Each image has been picked as it provides a clear visual description of the service along with a brief text underneath. Each image has a hover effect which when clicked takes the user to the contact page form.
+- The navigation bar features at the top of all three pages of the site and is fully responsive
+- The uniform styling aims to link all pages together for a seamless, fluid feel
+- The bar contains links to all other pages across the site
+- The landing page image has been used to immediately demonstrate what the website can offer and a circle image of text has also been added to summarise all services available
+- Further down the page there are three images to promote the three types of services available to the user. Each image has been picked as it provides a clear visual description of the service along with a brief text underneath. Each image has a hover effect which when clicked directs the user to the contact page form
 
 ![Landing Page](assets/images-readme/landing-page.jpg)
 
@@ -69,36 +69,39 @@ Navigation Bar and Landing Page
 ![Meditation Style Image](assets/images-readme/meditation-landing-page.jpg)
 
 ### Techniques Page
-- The technique page provides a simple step by step mediation practice for the user to copy at home. There are five images each with accompanying  text detailing how to carry out the techiques.
-- Going forward, this could be regularly updated and changed to different techniques to provide newness to the site.
+- The technique page provides a simple step by step mediation practice for the user to copy at home. There are five images each with accompanying  text detailing how to carry out the techiques
+- Going forward, this could be regularly updated and changed to different techniques to provide newness to the site
 
 ![Techniques Page](assets/images-readme/techniques-screenshot.jpg)
 
 ### Contact Page
-- The contact page has a contact form for users to input their name and email address. Users must also choose which service they are interested in being contacted about by selecting either Yoga, Meditation or Retreat. 
-- The page also features a background image with a zoom effect to add another level of interest for the user and to provide a point of difference.
+- The contact page has a contact form for users to input their name and email address. Users must also choose which service they are interested in being contacted about by selecting either Yoga, Meditation or Retreat
+- The page also features a background image with a zoom effect to add another level of interest for the user and to provide a point of difference
 
 ![Contact Form](assets/images-readme/contact-form-screenshot.jpg)
 
 ### Footer
-- The footer contains icons to the company's social media pages which all open in a separate window. They also have a hover effect to improve the user experience.
-- The footer contains contact details for the company, including a location address and telephone number.
+- The footer contains icons to the company's social media pages which all open in a separate window. They also have a hover effect to improve the user experience
+- The footer contains contact details for the company, including a location address and telephone number
 
 ![Footer](assets/images-readme/footer-screenshot.jpg)
 
 # Testing
-- I have confirmed that all headings in the navigation bar direct the user to the revelant page when clicked.
-- I have confirmed that all social media links open in a new tab when clicked and redirect to the relevant website.
-- I have confirmed that the form works correctly. All entry fields must be completed before the form can be submitted.
-- I have confirmed that all images on the homepage direct the user the the contact page when clicked.  
-- [EightShapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23D9BDB2%0D%0A%23FFE9E5%0D%0A%23B17067%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) was used to check that text was compliant on both foreground and background colour combinations.
+- I have confirmed that all headings in the navigation bar direct the user to the revelant page when clicked
+- I have confirmed that all social media links open in a new tab when clicked and redirect to the relevant website
+- I have confirmed that the form works correctly. All entry fields must be completed before the form can be submitted
+- I have confirmed that all images on the homepage direct the user the the contact page when clicked
+- [EightShapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23D9BDB2%0D%0A%23FFE9E5%0D%0A%23B17067%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) was used to check that text was compliant on both foreground and background colour combinations
 
 # Bugs
+- I found that a few spelling errors stopped my code from working at times. These were identified and correct.
+- I noticed that the media querey was not responsive on the home page. The circle text over the hero image would not scale down correctly. This was because there was a high width on the element forcing it to move. This was reticfied by adjusting the width to allow the image to become visible.
 
 # Validator Testing
 ## HTML
 
 [W3C Markup](https://validator.w3.org/#validate_by_input) was used to check for any errors within my HTML pages.
+I had a warning to consider changing some of the h1 elements to enable better use for screen readers . I actioned this by changing any h1 elements outside of the header sections to h2.
 
 ![W3C Validator](assets/images-readme/html-checker-error.jpg) 
 
@@ -113,6 +116,8 @@ Navigation Bar and Landing Page
 ![W3C Validator](assets/images-readme/css-validator.jpg)
 
 ## Accessibility
+
+Google Dev Tools Lighthouse was used to check for any accessibility issues.
 
 Landing Page
 
