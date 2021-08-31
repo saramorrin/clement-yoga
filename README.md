@@ -69,7 +69,7 @@ Navigation Bar and Landing Page
 ![Meditation Style Image](assets/images-readme/meditation-landing-page.jpg)
 
 ### Techniques Page
-- The technique page provides a simple step by step mediation practice for the user to copy at home. There are five images each with accompanying  text detailing how to carry out the techiques
+- The technique page provides a simple step by step mediation practice for the user to copy at home. There are five images each with accompanying text detailing how to carry out the individual technique
 - Going forward, this could be regularly updated and changed to different techniques to provide newness to the site
 
 ![Techniques Page](assets/images-readme/techniques-screenshot.jpg)
@@ -87,15 +87,15 @@ Navigation Bar and Landing Page
 ![Footer](assets/images-readme/footer-screenshot.jpg)
 
 # Testing
-- I have confirmed that all headings in the navigation bar direct the user to the revelant page when clicked
+- I have confirmed that all headings in the navigation bar direct the user to the relevant page when clicked
 - I have confirmed that all social media links open in a new tab when clicked and redirect to the relevant website
 - I have confirmed that the form works correctly. All entry fields must be completed before the form can be submitted
-- I have confirmed that all images on the homepage direct the user the the contact page when clicked
+- I have confirmed that all images on the homepage direct the user the contact page when clicked
 - [EightShapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23D9BDB2%0D%0A%23FFE9E5%0D%0A%23B17067%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) was used to check that text was compliant on both foreground and background colour combinations
 
 # Bugs
 - I found that a few spelling errors stopped my code from working at times. These were identified and correct.
-- I noticed that the media querey was not responsive on the home page. The circle text over the hero image would not scale down correctly. This was because there was a high width on the element forcing it to move. This was reticfied by adjusting the width to allow the image to become visible.
+- I noticed that the media query was not responsive on the home page. The circle text over the hero image would not scale down correctly. This was because there was a high width on the element forcing it to move. This was rectified by adjusting the width to allow the image to become visible.
 
 # Validator Testing
 ## HTML
