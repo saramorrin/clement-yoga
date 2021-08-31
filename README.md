@@ -16,11 +16,11 @@ A live website can be found [here](https://saramorrin.github.io/clement-yoga/ind
 The basic functions requested by the client were:
 - Picture examples of the kinds of practices offered
 - A simple meditation demonstration to give potential clients some information to take away from the site which could be built upon should they wish to join
-- Convey a message of finding a way to deliver a more balanced, tranquil and mindful way of life through the practices and meditation techniques on offer.
-- Links to all social media channels as currently most clients are directed to the business from these
-- Contact page
+- Convey a message of offering a way to deliver a more balanced, tranquil and mindful way of life through the practices and meditation techniques on available
+- Links to all social media channels, as currently most clients are directed to the business from these
+- Contact page where clients can get in touch with the company for further information
 
-The client would like to have the ability to add further functionality at a later point to include a class timetable for yoga classes, an online booking form for yoga classes and a dedicated retreat page to demonstrate past retreat events. 
+The client would like to have the ability to add further functionality at a later point to include a class timetable for yoga classes, an online booking form for yoga classes and a dedicated retreat page to showcase past retreat events. 
 
 The client would like the website to convey a welcoming, serene and tranquil tone, focusing on using cool pink and grey based hues.
 
@@ -35,11 +35,13 @@ The client would like the website to convey a welcoming, serene and tranquil ton
 
 ## Colour Scheme and Font
 
-[My Color Space](https://mycolor.space/?hex=%23D9BDB2&sub=1) was used to select a complimentary colour pallet based on the images used. The aim was to ensure the best use of contrasting colours inline with accessibility guidelines.  
+[My Color Space](https://mycolor.space/?hex=%23D9BDB2&sub=1) was used to choose a complimentary colour pallet based on the images selected. The aim was to ensure the best use of contrasting colours inline with accessibility guidelines.  
 The colours used were:
-- #D9BDB2
-- #FFE9E5
-- #B17067
+- #D9BDB2 background colour for site header and footer
+- #FFE9E5 background colour for site paragraph text and images
+
+The initial heading font chosen was [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?query=danc). However upon testing the font was not that clear to read and did not make enough of an impact for a logo text.
+Instead, [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=amatic) was picked as this provided a bolder look while still in keeping with the overall vision of the site. Of the fonts suggested by Google Fonts for appropriate pairings, [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open) was chosen for the paragraph text. It is a clean legible font, which sits nicely of the page alongside the heading text. Sans-serif was added as a backup option for those browsers that do not support some of the modern typefaces.  
 
 ## Site Skeleton
 
@@ -74,7 +76,7 @@ Navigation Bar and Landing Page
 
 ### Contact Page
 - The contact page has a contact form for users to input their name and email address. Users must also choose which service they are interested in being contacted about by selecting either Yoga, Meditation or Retreat. 
-- The page also features a background image with a zoom effect to add another level of interest for the user and to provide a more special styling experience.
+- The page also features a background image with a zoom effect to add another level of interest for the user and to provide a point of difference.
 
 ![Contact Form](assets/images-readme/contact-form-screenshot.jpg)
 
@@ -89,7 +91,7 @@ Navigation Bar and Landing Page
 - I have confirmed that all social media links open in a new tab when clicked and redirect to the relevant website.
 - I have confirmed that the form works correctly. All entry fields must be completed before the form can be submitted.
 - I have confirmed that all images on the homepage direct the user the the contact page when clicked.  
--[EightShapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23D9BDB2%0D%0A%23FFE9E5%0D%0A%23B17067%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) was used to check that text 
+- [EightShapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23D9BDB2%0D%0A%23FFE9E5%0D%0A%23B17067%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) was used to check that text was compliant on both foreground and background colour combinations.
 
 # Bugs
 
